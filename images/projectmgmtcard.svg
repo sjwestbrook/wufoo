@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="62px" height="79px" viewBox="0 0 62 79" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>Page 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Partners-Desktop" transform="translate(-1132.000000, -560.000000)">
+            <g id="Page-1" transform="translate(1134.000000, 561.000000)">
+                <path d="M26.0772716,25.6106358 L45.6863951,25.6106358" id="Stroke-1" stroke="#E86F69" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M26.0772716,43.0784491 L45.6863951,43.0784491" id="Stroke-2" stroke="#E86F69" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M26.0772716,60.4785604 L45.6863951,60.4785604" id="Stroke-3" stroke="#E86F69" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                <g id="Group-16" transform="translate(0.000000, 0.408245)">
+                    <path d="M12.8281296,6.34276604 L0.91012963,6.34276604 C0.509512346,6.34276604 0.181734568,6.66965283 0.181734568,7.06918113 L0.181734568,75.3652755 C0.181734568,75.7648038 0.509512346,76.0916906 0.91012963,76.0916906 L57.6105864,76.0916906 C58.0112037,76.0916906 58.3389815,75.7648038 58.3389815,75.3652755 L58.3389815,7.06918113 C58.3389815,6.66965283 58.0112037,6.34276604 57.6105864,6.34276604 L46.0006975,6.34276604" id="Stroke-4" stroke="#E86F69" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M30.5386914,6.51659717 C30.5386914,7.33817264 29.8707531,8.00429528 29.0469383,8.00429528 C28.2231235,8.00429528 27.5551852,7.33817264 27.5551852,6.51659717 C27.5551852,5.6950217 28.2231235,5.02889906 29.0469383,5.02889906 C29.8707531,5.02889906 30.5386914,5.6950217 30.5386914,6.51659717" id="Fill-6" fill="#E86F69"></path>
+                    <path d="M46.0037568,1.75095094 C46.0037568,1.06303585 45.4392506,0.500064151 44.7494605,0.500064151 L14.079658,0.500064151 C13.3898679,0.500064151 12.8253617,1.06303585 12.8253617,1.75095094 L12.8253617,12.410366 L46.0037568,12.410366 L46.0037568,1.75095094 L46.0037568,1.75095094 Z" id="Stroke-8" stroke="#E86F69" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <polyline id="Stroke-10" stroke="#E86F69" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" points="12.7380272 27.1194 14.8474593 29.7962396 18.6139901 22.9890038"></polyline>
+                    <polyline id="Stroke-12" stroke="#E86F69" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" points="12.4463778 43.6732377 14.5558099 46.3500774 18.3223407 39.5428415"></polyline>
+                    <polyline id="Stroke-14" stroke="#E86F69" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" points="12.169879 59.9798764 14.2793111 62.656716 18.045842 55.8494802"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
