@@ -65,7 +65,7 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
        .state('web-forms', {
             url: '/web-forms',
             templateUrl: '/partials/web-forms.html'
-        })
+        });
     
 });
 
