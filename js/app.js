@@ -9,17 +9,17 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
         // HOME STATE ========================================
         .state('home', {
             url: 'js/partials/home',
-            templateUrl: 'partials/home.html'
+            templateUrl: '/partials/home.html'
         })
              
        .state('about', {
             url: '/about',
-            templateUrl: 'partials/about.html'
+            templateUrl: '/partials/about.html'
         })    
     
         .state('404', {
             url: '/404',
-            templateUrl: './404.html'
+            templateUrl: '/partials/404.html'
         })
                         
        .state('blog', {
@@ -29,47 +29,47 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
     
         .state('examples', {
             url: '/examples',
-            templateUrl: './examples.html'
+            templateUrl: '/partials/examples.html'
         })
     
       .state('faq', {
             url: '/faq',
-            templateUrl: './faq.html'
+            templateUrl: '/partials/faq.html'
         })
     
         .state('features', {
             url: '/features',
-            templateUrl: './features.html'
+            templateUrl: '/partials/features.html'
         })
     
         .state('guides', {
             url: '/guides',
-            templateUrl: './guides.html'
+            templateUrl: '/partials/guides.html'
         })
     
         .state('help-center', {
             url: '/help-center',
-            templateUrl: './help-center.html'
+            templateUrl: '/partials/help-center.html'
         })     
     
         .state('partners', {
             url: '/partners',
-            templateUrl: './partners.html'
+            templateUrl: '/partials/partners.html'
         })
        
        .state('pricing', {
             url: '/pricing',
-            templateUrl: './pricing.html'
+            templateUrl: '/partials/pricing.html'
         })
     
         .state('templates', {
             url: '/templates',
-            templateUrl: './templates.html'
+            templateUrl: '/partials/templates.html'
         })
     
        .state('web-forms', {
             url: '/web-forms',
-            templateUrl: './web-forms.html'
+            templateUrl: '/partials/web-forms.html'
         });
     
 });
