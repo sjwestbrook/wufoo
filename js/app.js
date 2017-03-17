@@ -14,7 +14,7 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
              
        .state('about', {
             url: '/about',
-            templateUrl: '/partials/about.html'
+            templateUrl: 'partials/about.html'
         })    
     
         .state('404', {
