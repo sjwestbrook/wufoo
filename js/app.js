@@ -8,8 +8,8 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
         
         // HOME STATE ========================================
         .state('home', {
-            url: 'js/partials/home',
-            templateUrl: '/partials/home.html'
+            url: '/home',
+            templateUrl: './home.html'
         })
              
        .state('about', {
