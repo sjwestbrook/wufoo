@@ -1,10 +1,30 @@
-// NAV
+@white: #fff;
+@header-red: rgb(228, 90, 83);
+@jumbotron-red: rgb(230, 103, 96);
+@bright-blue: rgb(83, 189, 224);
+@blue: rgb(40, 172, 216);
+@lime: rgb(97, 224, 100);
+@dk-lime: rgb(169, 188, 56);
+@purple: rgb(140, 136, 205);
+@lt-yellow: rgb(255, 223, 143);
+@vlt-grey: rgb(237, 232, 232);
+@lt-grey: rgb(214, 204, 204);
+@grey: rgb(109, 105, 110);
+@charcoal: rgb(58, 58, 58);
 
-#wufoo-menu {
-  li {
-    list-style: none;
-    a {
-      text-decoration: none; 
-    }
+
+.navbar {
+  border-radius: none;
+  margin: 0;  
+  background-color: @header-red;  
+  
+  a {
+   color: @white;
+   text-transform: uppercase;
+   text-decoration: none;
+   .navbar-brand {
+     width: 40%;
+     color: @white;
+   }
   }
 }
