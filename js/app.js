@@ -14,57 +14,57 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
              
        .state('about', {
             url: '/about',
-            templateUrl: 'partials/about.html'
+            templateUrl: './about.html'
         })    
     
         .state('404', {
             url: '/404',
-            templateUrl: 'partials/404.html'
+            templateUrl: './404.html'
         })
                         
        .state('blog', {
             url: '/blog',
-            templateUrl: 'partials/blog.html'
+            templateUrl: './blog.html'
         })
     
         .state('examples', {
             url: '/examples',
-            templateUrl: 'partials/examples.html'
+            templateUrl: './examples.html'
         })
     
         .state('features', {
             url: '/features',
-            templateUrl: 'partials/features.html'
+            templateUrl: './features.html'
         })
     
         .state('guides', {
             url: '/guides',
-            templateUrl: 'partials/guides.html'
+            templateUrl: './guides.html'
         })
     
         .state('help-center', {
             url: '/help-center',
-            templateUrl: 'partials/help-center.html'
+            templateUrl: './help-center.html'
         })     
     
         .state('partners', {
             url: '/partners',
-            templateUrl: 'partials/partners.html'
+            templateUrl: './partners.html'
         })
        
        .state('pricing', {
             url: '/pricing',
-            templateUrl: 'partials/pricing.html'
+            templateUrl: './pricing.html'
         })
     
         .state('templates', {
             url: '/templates',
-            templateUrl: 'partials/templates.html'
+            templateUrl: './templates.html'
         })
     
        .state('web-forms', {
             url: '/web-forms',
-            templateUrl: 'partials/web-forms.html'
+            templateUrl: './web-forms.html'
         });
     
 });
