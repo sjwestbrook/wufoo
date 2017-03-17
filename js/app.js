@@ -24,7 +24,7 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
                         
        .state('blog', {
             url: '/blog',
-            templateUrl: './blog.html'
+            templateUrl: 'partials/blog.html'
         })
     
         .state('examples', {
