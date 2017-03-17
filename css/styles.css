@@ -1,7 +1,14 @@
-// NAV
-#wufoo-menu li {
-  list-style: none;
+.navbar {
+  border-radius: none;
+  margin: 0;
+  background-color: #e45a53;
 }
-#wufoo-menu li a {
+.navbar a {
+  color: #fff;
+  text-transform: uppercase;
   text-decoration: none;
+}
+.navbar a .navbar-brand {
+  width: 40%;
+  color: #fff;
 }
