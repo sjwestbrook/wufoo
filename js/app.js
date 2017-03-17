@@ -52,6 +52,11 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
             templateUrl: 'partials/help-center.html'
         })     
     
+       .state('login', {
+            url: '/login',
+            templateUrl: 'partials/login.html'
+        })
+    
         .state('partners', {
             url: '/partners',
             templateUrl: 'partials/partners.html'
