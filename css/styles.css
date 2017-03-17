@@ -8,7 +8,7 @@
   text-transform: uppercase;
   text-decoration: none;
 }
-.navbar a .navbar-brand {
+.navbar a .navbar-brand img {
   width: 40%;
-  color: #fff;
 }
+/* end navbar */
