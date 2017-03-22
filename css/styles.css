@@ -41,8 +41,11 @@
   background-color: #e45a53;
   font-size: 0.8em;
 }
+.navbar .navbar-header .navbar-brand {
+  width: 30%;
+}
 .navbar .navbar-header .navbar-brand img {
-  width: 20%;
+  width: 100%;
 }
 .navbar .navbar-header button .navbar-toggle .collapsed span .icon-bar {
   color: #ffdf8f;
