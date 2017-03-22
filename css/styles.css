@@ -1,73 +1,87 @@
-@white: #fff;
-@header-red: rgb(228, 90, 83);
-@jumbotron-red: rgb(230, 103, 96);
-@bright-blue: rgb(83, 189, 224);
-@blue: rgb(40, 172, 216);
-@lime: rgb(97, 224, 100);
-@dk-lime: rgb(169, 188, 56);
-@purple: rgb(140, 136, 205);
-@lt-yellow: rgb(255, 223, 143);
-@vlt-grey: rgb(237, 232, 232);
-@lt-grey: rgb(214, 204, 204);
-@grey: rgb(109, 105, 110);
-@charcoal: rgb(58, 58, 58);
-
 .header-link {
-  color: @white;   
+  color: #fff;
   text-decoration: none;
-  background-color: @header-red;
+  background-color: #e45a53;
   font-size: 0.8em;
   font-weight: bold;
 }
-
 .header-link-alt {
-  color: @lt-yellow;   
+  color: #ffdf8f;
   text-decoration: none;
-  background-color: @header-red;
+  background-color: #e45a53;
   font-size: 0.8em;
   font-weight: bold;
 }
-
 .nav {
-   border-radius: none;
+  border-radius: none;
 }
-
-.navbar { 
-  margin: 0;  
-  background-color: @header-red; 
+.navbar {
+  margin: 0;
+  background-color: #e45a53;
   padding: 1% 8%;
-  a {
-     .header-link;
-     text-transform: uppercase;
-     &:hover {
-        .header-link-alt;
-     }
-     &:active {
-        .header-link-alt;
-     }
-     &:visited {
-        .header-link;
-     }
-  }
-  .navbar-header {
-    width: 10%;
-     .navbar-brand {
-      img {
-        width: 100%;
-      }
-    }
-    button {
-      .navbar-toggle {
-        .collapsed {
-          span {
-            .icon-bar {
-              background-color: @white;
-            }        
-          }
-        }        
-      }            
-    }
-  }
 }
-
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  background-color: #e45a53;
+  font-size: 0.8em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.navbar a:hover {
+  color: #ffdf8f;
+  text-decoration: none;
+  background-color: #e45a53;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+.navbar a:active {
+  color: #ffdf8f;
+  text-decoration: none;
+  background-color: #e45a53;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+.navbar a:visited {
+  color: #fff;
+  text-decoration: none;
+  background-color: #e45a53;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+.navbar .navbar-header {
+  width: 10%;
+}
+.navbar .navbar-header .navbar-brand img {
+  width: 100%;
+}
+.navbar .navbar-header button .navbar-toggle .collapsed span .icon-bar {
+  background-color: #fff;
+}
 /* end navbar */
+.jumbotron {
+  background-color: #e66760;
+  color: #fff;
+}
+.jumbotron .btn-pro {
+  color: #fff;
+  background-color: #53bde0;
+  border: 1px solid #b7e3f2;
+}
+.jumbotron .btn-pro:active {
+  background-color: #b7e3f2;
+}
+.jumbotron .btn-pro:hover {
+  background-color: #b7e3f2;
+}
+.jumbotron .btn-free {
+  color: #fff;
+  background-color: #61e064;
+  border: 1px solid #aeefaf;
+}
+.jumbotron .btn-free:active {
+  background-color: #aeefaf;
+}
+.jumbotron .btn-free:hover {
+  background-color: #aeefaf;
+}
