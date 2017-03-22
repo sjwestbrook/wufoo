@@ -12,21 +12,41 @@
 @grey: rgb(109, 105, 110);
 @charcoal: rgb(58, 58, 58);
 
+.header-link {
+  color: @white;   
+  text-decoration: none;
+  background-color: @header-red;
+}
+
+.header-link-alt {
+  color: @lt-yellow;   
+  text-decoration: none;
+  background-color: @header-red;
+}
 
 .navbar {
   border-radius: none;
   margin: 0;  
-  background-color: @header-red;  
-  
+  background-color: @header-red;    
   a {
-   color: @white;
-   text-transform: uppercase;
-   text-decoration: none;
-   .navbar-brand {
+     .header-link;
+     text-transform: uppercase;
+     &:hover {
+        .header-link-alt;
+     }
+     &:active {
+        .header-link-alt;
+     }
+     &:visited {
+        .header-link;
+     }
+  }
+  .navbar-header {
+    .navbar-brand {
      img {
-       width: 40%;
+       width: 20%;
      }
    }
   }
-} 
+}
 /* end navbar */
