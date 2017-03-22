@@ -30,42 +30,44 @@
 
 .nav {
    border-radius: none;
-  .navbar { 
-    margin: 0;  
-    background-color: @header-red; 
-    padding: 1% 8%;
-    a {
-       .header-link;
-       text-transform: uppercase;
-       &:hover {
-          .header-link-alt;
-       }
-       &:active {
-          .header-link-alt;
-       }
-       &:visited {
-          .header-link;
-       }
+}
+
+.navbar { 
+  margin: 0;  
+  background-color: @header-red; 
+  padding: 1% 8%;
+  a {
+     .header-link;
+     text-transform: uppercase;
+     &:hover {
+        .header-link-alt;
+     }
+     &:active {
+        .header-link-alt;
+     }
+     &:visited {
+        .header-link;
+     }
+  }
+  .navbar-header {
+    width: 10%;
+     .navbar-brand {
+      img {
+        width: 100%;
+      }
     }
-    .navbar-header {
-      width: 10%;
-       .navbar-brand {
-        img {
-          width: 100%;
-        }
-      }
-      button {
-        .navbar-toggle {
-          .collapsed {
-            span {
-              .icon-bar {
-                background-color: @white;
-              }        
-            }
-          }        
-        }            
-      }
+    button {
+      .navbar-toggle {
+        .collapsed {
+          span {
+            .icon-bar {
+              background-color: @white;
+            }        
+          }
+        }        
+      }            
     }
   }
 }
+
 /* end navbar */
