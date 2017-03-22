@@ -2,8 +2,10 @@
 @header-red: rgb(228, 90, 83);
 @jumbotron-red: rgb(230, 103, 96);
 @bright-blue: rgb(83, 189, 224);
+@lt-bright-blue: rgb(183, 227, 242);
 @blue: rgb(40, 172, 216);
 @lime: rgb(97, 224, 100);
+@lt-lime: rgb(174, 239, 175);
 @dk-lime: rgb(169, 188, 56);
 @purple: rgb(140, 136, 205);
 @lt-yellow: rgb(255, 223, 143);
@@ -11,6 +13,8 @@
 @lt-grey: rgb(214, 204, 204);
 @grey: rgb(109, 105, 110);
 @charcoal: rgb(58, 58, 58);
+
+
 
 .header-link {
   color: @white;   
@@ -69,5 +73,33 @@
     }
   }
 }
-
 /* end navbar */
+
+
+.jumbotron {
+  background-color: @jumbotron-red; 
+  color: @white;
+  .btn-pro {
+    color: @white;
+    background-color: @bright-blue;
+    border: 1px solid @lt-bright-blue;
+    &:active {
+     background-color: @lt-bright-blue; 
+    }
+    &:hover {
+     background-color: @lt-bright-blue; 
+    }
+  }
+  .btn-free {
+    color: @white;
+    background-color: @lime;
+    border: 1px solid @lt-lime;
+    &:active {
+     background-color: @lt-lime; 
+    }
+    &:hover {
+     background-color: @lt-lime; 
+    }
+  }
+  
+}
