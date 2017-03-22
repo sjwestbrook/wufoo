@@ -14,7 +14,7 @@
   border-radius: none;
   margin: 0;
   background-color: #e45a53;
-  padding: 1% 4%;
+  padding: 1% 8%;
 }
 .navbar a {
   color: #fff;
@@ -42,7 +42,7 @@
   font-size: 0.8em;
 }
 .navbar .navbar-header {
-  width: 30%;
+  width: 15%;
 }
 .navbar .navbar-header .navbar-brand img {
   width: 100%;
