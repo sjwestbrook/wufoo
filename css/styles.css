@@ -37,4 +37,9 @@
 .navbar .navbar-header .navbar-brand img {
   width: 20%;
 }
+.navbar .navbar-header button .navbar-toggle collapsed {
+  color: #ffdf8f;
+  text-decoration: none;
+  background-color: #e45a53;
+}
 /* end navbar */
