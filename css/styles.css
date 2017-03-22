@@ -1,3 +1,13 @@
+.header-link {
+  color: #fff;
+  text-decoration: none;
+  background-color: #e45a53;
+}
+.header-link-alt {
+  color: #ffdf8f;
+  text-decoration: none;
+  background-color: #e45a53;
+}
 .navbar {
   border-radius: none;
   margin: 0;
@@ -5,10 +15,26 @@
 }
 .navbar a {
   color: #fff;
-  text-transform: uppercase;
   text-decoration: none;
+  background-color: #e45a53;
+  text-transform: uppercase;
 }
-.navbar a .navbar-brand img {
-  width: 40%;
+.navbar a:hover {
+  color: #ffdf8f;
+  text-decoration: none;
+  background-color: #e45a53;
+}
+.navbar a:active {
+  color: #ffdf8f;
+  text-decoration: none;
+  background-color: #e45a53;
+}
+.navbar a:visited {
+  color: #fff;
+  text-decoration: none;
+  background-color: #e45a53;
+}
+.navbar .navbar-header .navbar-brand img {
+  width: 20%;
 }
 /* end navbar */
