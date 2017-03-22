@@ -1,61 +1,73 @@
+@white: #fff;
+@header-red: rgb(228, 90, 83);
+@jumbotron-red: rgb(230, 103, 96);
+@bright-blue: rgb(83, 189, 224);
+@blue: rgb(40, 172, 216);
+@lime: rgb(97, 224, 100);
+@dk-lime: rgb(169, 188, 56);
+@purple: rgb(140, 136, 205);
+@lt-yellow: rgb(255, 223, 143);
+@vlt-grey: rgb(237, 232, 232);
+@lt-grey: rgb(214, 204, 204);
+@grey: rgb(109, 105, 110);
+@charcoal: rgb(58, 58, 58);
+
 .header-link {
-  color: #fff;
+  color: @white;   
   text-decoration: none;
-  background-color: #e45a53;
+  background-color: @header-red;
   font-size: 0.8em;
   font-weight: bold;
 }
+
 .header-link-alt {
-  color: #ffdf8f;
+  color: @lt-yellow;   
   text-decoration: none;
-  background-color: #e45a53;
+  background-color: @header-red;
   font-size: 0.8em;
   font-weight: bold;
 }
+
 .nav {
-  border-radius: none;
+   border-radius: none;
 }
-.nav .navbar {
-  margin: 0;
-  background-color: #e45a53;
+
+.navbar { 
+  margin: 0;  
+  background-color: @header-red; 
   padding: 1% 8%;
+  a {
+     .header-link;
+     text-transform: uppercase;
+     &:hover {
+        .header-link-alt;
+     }
+     &:active {
+        .header-link-alt;
+     }
+     &:visited {
+        .header-link;
+     }
+  }
+  .navbar-header {
+    width: 10%;
+     .navbar-brand {
+      img {
+        width: 100%;
+      }
+    }
+    button {
+      .navbar-toggle {
+        .collapsed {
+          span {
+            .icon-bar {
+              background-color: @white;
+            }        
+          }
+        }        
+      }            
+    }
+  }
 }
-.nav .navbar a {
-  color: #fff;
-  text-decoration: none;
-  background-color: #e45a53;
-  font-size: 0.8em;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-.nav .navbar a:hover {
-  color: #ffdf8f;
-  text-decoration: none;
-  background-color: #e45a53;
-  font-size: 0.8em;
-  font-weight: bold;
-}
-.nav .navbar a:active {
-  color: #ffdf8f;
-  text-decoration: none;
-  background-color: #e45a53;
-  font-size: 0.8em;
-  font-weight: bold;
-}
-.nav .navbar a:visited {
-  color: #fff;
-  text-decoration: none;
-  background-color: #e45a53;
-  font-size: 0.8em;
-  font-weight: bold;
-}
-.nav .navbar .navbar-header {
-  width: 10%;
-}
-.nav .navbar .navbar-header .navbar-brand img {
-  width: 100%;
-}
-.nav .navbar .navbar-header button .navbar-toggle .collapsed span .icon-bar {
-  background-color: #fff;
-}
+
 /* end navbar */
