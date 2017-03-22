@@ -48,9 +48,6 @@
   width: 100%;
 }
 .navbar .navbar-header button .navbar-toggle .collapsed span .icon-bar {
-  color: #ffdf8f;
-  text-decoration: none;
-  background-color: #e45a53;
-  font-size: 0.8em;
+  background-color: #fff;
 }
 /* end navbar */
