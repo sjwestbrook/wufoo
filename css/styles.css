@@ -2,37 +2,44 @@
   color: #fff;
   text-decoration: none;
   background-color: #e45a53;
+  font-size: 0.8em;
 }
 .header-link-alt {
   color: #ffdf8f;
   text-decoration: none;
   background-color: #e45a53;
+  font-size: 0.8em;
 }
 .navbar {
   border-radius: none;
   margin: 0;
   background-color: #e45a53;
+  padding: 1% 4%;
 }
 .navbar a {
   color: #fff;
   text-decoration: none;
   background-color: #e45a53;
+  font-size: 0.8em;
   text-transform: uppercase;
 }
 .navbar a:hover {
   color: #ffdf8f;
   text-decoration: none;
   background-color: #e45a53;
+  font-size: 0.8em;
 }
 .navbar a:active {
   color: #ffdf8f;
   text-decoration: none;
   background-color: #e45a53;
+  font-size: 0.8em;
 }
 .navbar a:visited {
   color: #fff;
   text-decoration: none;
   background-color: #e45a53;
+  font-size: 0.8em;
 }
 .navbar .navbar-header .navbar-brand img {
   width: 20%;
@@ -41,5 +48,6 @@
   color: #ffdf8f;
   text-decoration: none;
   background-color: #e45a53;
+  font-size: 0.8em;
 }
 /* end navbar */
