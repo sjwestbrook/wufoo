@@ -125,6 +125,7 @@
 /* ELEMENT CLASSES */
 p {
   font-size: 1.1em;
+  font-weight: 400;
 }
 .row {
   padding: 8% 5%;
@@ -133,7 +134,7 @@ a {
   text-decoration: none;
 }
 h2 {
-  font-size: 2.1em;
+  font-size: 2.4em;
   font-weight: bold;
 }
 .container-fluid {
