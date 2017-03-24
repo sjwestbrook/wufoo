@@ -147,6 +147,20 @@ h2 {
 .btn-green2:hover {
   background-color: #a9bc38;
 }
+/* links */
+.green-link {
+  color: #61e064;
+}
+.green-link:hover {
+  color: #61e064;
+  text-decoration: underline #61e064;
+}
+.green-link:active {
+  color: #61e064;
+}
+.green-link:visited {
+  color: #61e064;
+}
 /* misc */
 .center {
   text-align: center;
@@ -156,6 +170,9 @@ h2 {
 }
 .client-logos {
   width: 15%;
+}
+.padding-no-top {
+  padding-top: 0;
 }
 /* ELEMENT CLASSES */
 .container-fluid {
