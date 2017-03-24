@@ -13,6 +13,10 @@
   font-size: 0.8em;
   font-weight: bold;
 }
+.red-white {
+  color: #fff;
+  background-color: #e66760;
+}
 /* CLASSES */
 /* font colors */
 .blue-text {
@@ -151,6 +155,6 @@
 }
 /* end navbar */
 .jumbotron {
-  background-color: #e66760;
   color: #fff;
+  background-color: #e66760;
 }
