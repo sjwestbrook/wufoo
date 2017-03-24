@@ -11,7 +11,7 @@
 @dk-lime: rgb(169, 188, 56);
 @purple: rgb(140, 136, 205);
 @lt-yellow: rgb(255, 223, 143);
-@lt-bright-yellow: darken(rgb(255, 223, 143), 10%)
+@lt-bright-yellow: darken(rgb(255, 223, 143), 10%);
 @vlt-grey: rgb(237, 232, 232);
 @lt-grey: rgb(214, 204, 204);
 @grey: rgb(109, 105, 110);
@@ -52,6 +52,15 @@
   color: @white; 
   background-color: @jumbotron-red;
   text-transform: uppercase;
+  border: 1px solid @lt-grey;
+  &:active {
+    background-color:@jumbotron-red; 
+    border: 1px solid @lt-grey;
+  }
+  &:hover {
+    background-color: @jumbotron-red; 
+    border: 1px solid @lt-grey;
+  }
 }
 
 .btn-yellow {
