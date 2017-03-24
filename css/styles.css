@@ -17,6 +17,10 @@
   color: #fff;
   background-color: #e66760;
 }
+.purple-white {
+  color: #fff;
+  background-color: #8c88cd;
+}
 /* CLASSES */
 /* font colors */
 .blue-text {
@@ -37,9 +41,9 @@
   text-transform: uppercase;
   border-radius: 0;
 }
-.purple-bg {
-  background-color: #8c88cd;
-}
+/* .purple-bg {
+  background-color: @purple;
+} */
 /* buttons */
 .btn-red {
   color: #fff;
