@@ -14,6 +14,7 @@
   font-weight: bold;
 }
 /* CLASSES */
+/* font colors */
 .blue-text {
   color: #28acd8;
 }
@@ -23,11 +24,13 @@
 .white-text {
   color: #fff;
 }
+/* buttons */
 .btn-red {
   color: #fff;
   background-color: #e66760;
   text-transform: uppercase;
   border: 1px solid #d6cccc;
+  border-radius: 0;
 }
 .btn-red:active {
   background-color: #e66760;
@@ -42,6 +45,7 @@
   background-color: #ffdf8f;
   text-transform: uppercase;
   border: none;
+  border-radius: 0;
 }
 .btn-yellow:active {
   background-color: #ffd05c;
@@ -52,33 +56,37 @@
   border: none;
 }
 .vlt-grey-bg {
-  background-color: #ede8e8;
+  background-color: #f8fafb;
   text-transform: uppercase;
+  border-radius: 0;
 }
-.btn-pro {
+.btn-blue {
   color: #fff;
   background-color: #53bde0;
+  text-transform: uppercase;
   border: 1px solid #b7e3f2;
-  border-radius: none;
+  border-radius: 0;
 }
-.btn-pro:active {
+.btn-blue:active {
   background-color: #b7e3f2;
 }
-.btn-pro:hover {
+.btn-blue:hover {
   background-color: #b7e3f2;
 }
-.btn-free {
+.btn-green {
   color: #fff;
   background-color: #61e064;
+  text-transform: uppercase;
   border: 1px solid #aeefaf;
-  border-radius: none;
+  border-radius: 0;
 }
-.btn-free:active {
+.btn-green:active {
   background-color: #aeefaf;
 }
-.btn-free:hover {
+.btn-green:hover {
   background-color: #aeefaf;
 }
+/* misc */
 .center {
   text-align: center;
 }
@@ -145,28 +153,4 @@
 .jumbotron {
   background-color: #e66760;
   color: #fff;
-  /*   .btn-pro {
-    color: @white;
-    background-color: @bright-blue;
-    border: 1px solid @lt-bright-blue;
-    border-radius: none;
-    &:active {
-     background-color: @lt-bright-blue; 
-    }
-    &:hover {
-     background-color: @lt-bright-blue; 
-    }
-  }
-  .btn-free {
-    color: @white;
-    background-color: @lime;
-    border: 1px solid @lt-lime;
-    border-radius: none;
-    &:active {
-     background-color: @lt-lime; 
-    }
-    &:hover {
-     background-color: @lt-lime; 
-    }
-  } */
 }
