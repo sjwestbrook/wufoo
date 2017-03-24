@@ -161,6 +161,45 @@ h2 {
 .green-link:visited {
   color: #61e064;
 }
+/* lists */
+.vertical-list {
+  display: block;
+  list-style-type: none;
+  padding: 1.2em 0;
+}
+.vertical-list a {
+  color: #6d696e;
+  background-color: #f8fafb;
+  text-decoration: underline #6d696e;
+}
+.vertical-list-image {
+  display: block;
+  list-style-type: none;
+}
+.vertical-list-image a {
+  text-decoration: none;
+}
+.vertical-list-image a:hover {
+  color: #28acd8;
+  background-color: #f8fafb;
+}
+.horizontal-list li {
+  display: inline;
+  list-style-type: none;
+}
+.horizontal-list li a {
+  color: #61e064;
+}
+.horizontal-list li a:hover {
+  color: #61e064;
+  text-decoration: underline #61e064;
+}
+.horizontal-list li a:active {
+  color: #61e064;
+}
+.horizontal-list li a:visited {
+  color: #61e064;
+}
 /* misc */
 .center {
   text-align: center;
