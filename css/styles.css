@@ -280,3 +280,7 @@ h2 {
 .jumbotron h6 {
   color: #fff;
 }
+footer {
+  margin: 0;
+  background-color: #f8fafb;
+}
