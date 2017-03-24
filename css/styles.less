@@ -287,27 +287,31 @@ footer {
   
   /* lists */
   .vertical-list {
-    display: block;
-    list-style-type: none;
-    padding: 1% 0;
-    a {
-      color: @grey;
-      background-color: @vlt-grey;
-      text-decoration: underline @grey;
-    } 
+    li {
+      display: block;
+      list-style-type: none;
+      padding: 1% 0;
+      a {
+        color: @grey;
+        background-color: @vlt-grey;
+        text-decoration: underline @grey;
+      } 
+    }    
   }
 
   .vertical-list-image {
-    display: block;
-    list-style-type: none;
-    a {
-      text-decoration: none;
-      text-align: center;
-      &:hover {
-        color: @blue;
-        background-color: @vlt-grey;      
+    li {
+      display: block;
+      list-style-type: none;
+      a {
+        text-decoration: none;
+        text-align: center;
+        &:hover {
+          color: @blue;
+          background-color: @vlt-grey;      
+        }
       }
-    }
+    }    
   }
 
   .horizontal-list {
@@ -321,16 +325,18 @@ footer {
   }
 
   .hotizontal-list-image {
-    display: block;
-    list-style-type: none;
-    padding: 0 2%;
-    a {
-      color: @lt-grey;
-      text-decoration: none;
-      &:hover {
-        color: @blue;
-        background-color: @vlt-grey;      
+    li {
+      display: inline;
+      list-style-type: none;
+      padding: 0 2%;
+      a {
+        color: @lt-grey;
+        text-decoration: none;
+        &:hover {
+          color: @blue;
+          background-color: @vlt-grey;      
+        }
       }
-    }
+    }    
   }
 }
