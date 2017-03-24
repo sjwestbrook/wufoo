@@ -161,59 +161,6 @@ h2 {
 .green-link:visited {
   color: #61e064;
 }
-/* lists */
-.vertical-list {
-  display: block;
-  list-style-type: none;
-  padding: 1% 0;
-}
-.vertical-list a {
-  color: #6d696e;
-  background-color: #f8fafb;
-  text-decoration: underline #6d696e;
-}
-.vertical-list-image {
-  display: block;
-  list-style-type: none;
-}
-.vertical-list-image a {
-  text-decoration: none;
-  text-align: center;
-}
-.vertical-list-image a:hover {
-  color: #28acd8;
-  background-color: #f8fafb;
-}
-.horizontal-list li {
-  display: inline;
-  list-style-type: none;
-}
-.horizontal-list li a {
-  color: #61e064;
-}
-.horizontal-list li a:hover {
-  color: #61e064;
-  text-decoration: underline #61e064;
-}
-.horizontal-list li a:active {
-  color: #61e064;
-}
-.horizontal-list li a:visited {
-  color: #61e064;
-}
-.hotizontal-list-image {
-  display: block;
-  list-style-type: none;
-  padding: 0 2%;
-}
-.hotizontal-list-image a {
-  color: #d6cccc;
-  text-decoration: none;
-}
-.hotizontal-list-image a:hover {
-  color: #28acd8;
-  background-color: #f8fafb;
-}
 /* misc */
 .center {
   text-align: center;
@@ -296,5 +243,58 @@ h2 {
 }
 footer {
   margin: 0;
+  background-color: #f8fafb;
+  /* lists */
+}
+footer .vertical-list {
+  display: block;
+  list-style-type: none;
+  padding: 1% 0;
+}
+footer .vertical-list a {
+  color: #6d696e;
+  background-color: #f8fafb;
+  text-decoration: underline #6d696e;
+}
+footer .vertical-list-image {
+  display: block;
+  list-style-type: none;
+}
+footer .vertical-list-image a {
+  text-decoration: none;
+  text-align: center;
+}
+footer .vertical-list-image a:hover {
+  color: #28acd8;
+  background-color: #f8fafb;
+}
+footer .horizontal-list li {
+  display: inline;
+  list-style-type: none;
+}
+footer .horizontal-list li a {
+  color: #61e064;
+}
+footer .horizontal-list li a:hover {
+  color: #61e064;
+  text-decoration: underline #61e064;
+}
+footer .horizontal-list li a:active {
+  color: #61e064;
+}
+footer .horizontal-list li a:visited {
+  color: #61e064;
+}
+footer .hotizontal-list-image {
+  display: block;
+  list-style-type: none;
+  padding: 0 2%;
+}
+footer .hotizontal-list-image a {
+  color: #d6cccc;
+  text-decoration: none;
+}
+footer .hotizontal-list-image a:hover {
+  color: #28acd8;
   background-color: #f8fafb;
 }
