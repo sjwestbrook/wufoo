@@ -201,16 +201,16 @@ h2 {
 .horizontal-list a:visited {
   color: #61e064;
 }
-.hotizontal-list-image {
+.horizontal-list-image {
   display: inline;
   list-style-type: none;
   padding: 0 2%;
 }
-.hotizontal-list-image a {
+.horizontal-list-image a {
   color: #d6cccc;
   text-decoration: none;
 }
-.hotizontal-list-image a:hover {
+.horizontal-list-image a:hover {
   color: #28acd8;
   background-color: #f8fafb;
 }
