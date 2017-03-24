@@ -101,6 +101,18 @@
 .btn-green:hover {
   background-color: #aeefaf;
 }
+.btn-green2 {
+  color: #fff;
+  background-color: #61e064;
+  text-transform: uppercase;
+  border-radius: 0;
+}
+.btn-green2:active {
+  background-color: #a9bc38;
+}
+.btn-green2:hover {
+  background-color: #a9bc38;
+}
 /* misc */
 .center {
   text-align: center;
@@ -114,6 +126,9 @@
 /* ELEMENT CLASSES */
 .row {
   padding: 8% 5%;
+}
+a {
+  text-decoration: none;
 }
 .container-fluid {
   padding: 0;
