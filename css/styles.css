@@ -184,33 +184,33 @@ h2 {
   color: #28acd8;
   background-color: #f8fafb;
 }
-.horizontal-list {
+.horizontal-list li {
   display: inline;
   list-style-type: none;
 }
-.horizontal-list a {
+.horizontal-list li a {
   color: #61e064;
 }
-.horizontal-list a:hover {
+.horizontal-list li a:hover {
   color: #61e064;
   text-decoration: underline #61e064;
 }
-.horizontal-list a:active {
+.horizontal-list li a:active {
   color: #61e064;
 }
-.horizontal-list a:visited {
+.horizontal-list li a:visited {
   color: #61e064;
 }
-.horizontal-list-image {
+.horizontal-list-image li {
   display: inline;
   list-style-type: none;
   padding: 0 2%;
 }
-.horizontal-list-image a {
+.horizontal-list-image li a {
   color: #d6cccc;
   text-decoration: none;
 }
-.horizontal-list-image a:hover {
+.horizontal-list-image li a:hover {
   color: #28acd8;
   background-color: #f8fafb;
 }
