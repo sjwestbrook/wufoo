@@ -1,3 +1,7 @@
+html {
+  padding: 0;
+  margin: 0;
+}
 /* text  */
 p {
   font-size: 1.1em;
@@ -297,5 +301,6 @@ h2 {
 }
 footer {
   margin: 0;
+  padding: 0 5%;
   background-color: #f8fafb;
 }
