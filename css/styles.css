@@ -165,7 +165,7 @@ h2 {
 .vertical-list {
   display: block;
   list-style-type: none;
-  padding: 1.2em 0;
+  padding: 1% 0;
 }
 .vertical-list a {
   color: #6d696e;
@@ -178,6 +178,7 @@ h2 {
 }
 .vertical-list-image a {
   text-decoration: none;
+  text-align: center;
 }
 .vertical-list-image a:hover {
   color: #28acd8;
@@ -199,6 +200,18 @@ h2 {
 }
 .horizontal-list li a:visited {
   color: #61e064;
+}
+.hotizontal-list-image {
+  display: block;
+  list-style-type: none;
+  padding: 0 2%;
+}
+.hotizontal-list-image a {
+  text-decoration: none;
+}
+.hotizontal-list-image a:hover {
+  color: #28acd8;
+  background-color: #f8fafb;
 }
 /* misc */
 .center {
