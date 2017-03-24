@@ -15,13 +15,19 @@
 .blue-text {
   color: #28acd8;
 }
-/* .red-text {
-  color: ;
-}  */
-/* .btn-red {
-  color: @white; 
-  background-color: @;
-} */
+.red-text {
+  color: #e66760;
+}
+.btn-red {
+  color: #fff;
+  background-color: #e66760;
+}
+.center {
+  text-align: center;
+}
+.client-logos {
+  width: 15%;
+}
 .container-fluid {
   padding: 0;
 }
