@@ -18,6 +18,9 @@
 .red-text {
   color: #e66760;
 }
+.white-text {
+  color: #fff;
+}
 .btn-red {
   color: #fff;
   background-color: #e66760;
@@ -26,8 +29,14 @@
   color: #6d696e;
   background-color: #ffdf8f;
 }
+.vlt-grey-bg {
+  background-color: #ede8e8;
+}
 .center {
   text-align: center;
+}
+.caps {
+  text-transform: uppercase;
 }
 .client-logos {
   width: 15%;
