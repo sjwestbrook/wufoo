@@ -33,12 +33,28 @@ h2 {
   font-weight: bold;
 }
 .red-white {
-  color: #fff;
   background-color: #e66760;
 }
-.purple-white {
+.red-white p,
+.red-white h1,
+.red-white h2,
+.red-white h3,
+.red-white h4,
+.red-white h5,
+.red-white h6 {
   color: #fff;
+}
+.purple-white {
   background-color: #8c88cd;
+}
+.purple-white p,
+.purple-white h1,
+.purple-white h2,
+.purple-white h3,
+.purple-white h4,
+.purple-white h5,
+.purple-white h6 {
+  color: #fff;
 }
 /* CLASSES */
 /* font colors */
@@ -197,6 +213,14 @@ h2 {
 }
 /* end navbar */
 .jumbotron {
-  color: #fff;
   background-color: #e66760;
+}
+.jumbotron p,
+.jumbotron h1,
+.jumbotron h2,
+.jumbotron h3,
+.jumbotron h4,
+.jumbotron h5,
+.jumbotron h6 {
+  color: #fff;
 }
