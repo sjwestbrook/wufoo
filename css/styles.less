@@ -227,24 +227,28 @@ h2 {
 }
 
 .horizontal-list {
-  display: inline; 
-  list-style-type: none;    
-   a {
-    .green-link; 
-  }
+  li {
+    display: inline; 
+    list-style-type: none;    
+     a {
+      .green-link; 
+    }
+  }  
 }
 
 .horizontal-list-image {
-  display: inline;
-  list-style-type: none;
-  padding: 0 2%;
-  a {
-    color: @lt-grey;
-    text-decoration: none;
-    &:hover {
-      color: @blue;
-      background-color: @vlt-grey;      
-    }
+  li {
+    display: inline;
+    list-style-type: none;
+    padding: 0 2%;
+    a {
+      color: @lt-grey;
+      text-decoration: none;
+      &:hover {
+        color: @blue;
+        background-color: @vlt-grey;      
+      }
+    }  
   }  
 }
 
