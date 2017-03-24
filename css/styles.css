@@ -25,8 +25,20 @@
 .red-text {
   color: #e66760;
 }
+.yellow-text {
+  color: #ffdf8f;
+}
 .white-text {
   color: #fff;
+}
+/* backgrounds */
+.vlt-grey-bg {
+  background-color: #f8fafb;
+  text-transform: uppercase;
+  border-radius: 0;
+}
+.purple-bg {
+  background-color: #8c88cd;
 }
 /* buttons */
 .btn-red {
@@ -58,11 +70,6 @@
 .btn-yellow:hover {
   background-color: #ffd05c;
   border: none;
-}
-.vlt-grey-bg {
-  background-color: #f8fafb;
-  text-transform: uppercase;
-  border-radius: 0;
 }
 .btn-blue {
   color: #fff;
@@ -101,6 +108,9 @@
   width: 15%;
 }
 /* ELEMENT CLASSES */
+.row {
+  padding: 8% 5%;
+}
 .container-fluid {
   padding: 0;
 }
