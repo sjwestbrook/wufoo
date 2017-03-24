@@ -126,12 +126,16 @@
 p {
   font-size: 1.1em;
   font-weight: 400;
+  color: #6d696e;
 }
 .row {
   padding: 8% 5%;
 }
 a {
   text-decoration: none;
+}
+h1 {
+  font-size: 2.6em;
 }
 h2 {
   font-size: 2.4em;
