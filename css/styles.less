@@ -182,6 +182,61 @@ h2 {
   }
 }
 
+
+/* links */
+
+.green-link {
+  color: @lime;
+  &:hover {
+   color: @lime;
+    text-decoration: underline @lime;
+  }
+  &:active {
+   color: @lime;
+  }
+  &:visited {
+   color: @lime;
+  }
+}
+
+
+/* lists */
+
+.vertical-list {
+  display: block;
+  list-style-type: none;
+  padding: 1.2em 0;
+  a {
+    color: @grey;
+    background-color: @vlt-grey;
+    text-decoration: underline @grey;
+  } 
+}
+
+
+.vertical-list-image {
+  display: block;
+  list-style-type: none;
+  a {
+    text-decoration: none;
+    &:hover {
+      color: @blue;
+      background-color: @vlt-grey;      
+    }
+  }
+}
+
+.horizontal-list {
+  li {
+    display: inline; 
+    list-style-type: none;    
+     a {
+      .green-link; 
+    }
+  }
+}
+
+
 /* misc */
 
 .center {
@@ -196,6 +251,9 @@ h2 {
   width: 15%; 
 }
 
+.padding-no-top {
+  padding-top: 0; 
+}
 
 
 /* ELEMENT CLASSES */
