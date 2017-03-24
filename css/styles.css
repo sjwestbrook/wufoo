@@ -38,7 +38,6 @@
 /* backgrounds */
 .vlt-grey-bg {
   background-color: #f8fafb;
-  text-transform: uppercase;
   border-radius: 0;
 }
 /* .purple-bg {
@@ -149,6 +148,7 @@ h2 {
 .navbar {
   margin: 0;
   background-color: #e45a53;
+  border-radius: 0;
   padding: 1% 8%;
 }
 .navbar a {
