@@ -211,10 +211,12 @@ h2 {
   padding: 0 2%;
 }
 .horizontal-list-image li a {
-  color: #d6cccc;
   text-decoration: none;
 }
-.horizontal-list-image li a:hover {
+.horizontal-list-image li a i {
+  /*         color: @lt-grey; */
+}
+.horizontal-list-image li a i:hover {
   color: #28acd8;
   background-color: #f8fafb;
 }
