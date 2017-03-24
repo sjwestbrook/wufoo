@@ -12,7 +12,7 @@
 @purple: rgb(140, 136, 205);
 @lt-yellow: rgb(255, 223, 143);
 @lt-bright-yellow: darken(rgb(255, 223, 143), 10%);
-@vlt-grey: rgb(237, 232, 232);
+@vlt-grey: rgb(248,250,251);
 @lt-grey: rgb(214, 204, 204);
 @grey: rgb(109, 105, 110);
 @charcoal: rgb(58, 58, 58);
@@ -36,6 +36,7 @@
 
 /* CLASSES */
 
+/* font colors */
 .blue-text {
   color: @blue; 
 }
@@ -48,11 +49,15 @@
   color: @white;
 }
 
+
+/* buttons */
+
 .btn-red {
   color: @white; 
   background-color: @jumbotron-red;
   text-transform: uppercase;
   border: 1px solid @lt-grey;
+  border-radius: 0;
   &:active {
     background-color:@jumbotron-red; 
     border: 1px solid @lt-grey;
@@ -68,6 +73,7 @@
   background-color: @lt-yellow;
   text-transform: uppercase;
   border: none;
+  border-radius: 0;
   &:active {
     background-color:@lt-bright-yellow; 
     border: none;
@@ -81,13 +87,15 @@
 .vlt-grey-bg {
   background-color: @vlt-grey;
   text-transform: uppercase;
+  border-radius: 0;
 }
 
-.btn-pro {
+.btn-blue {
   color: @white;
   background-color: @bright-blue;
+  text-transform: uppercase;
   border: 1px solid @lt-bright-blue;
-  border-radius: none;
+  border-radius: 0;
   &:active {
    background-color: @lt-bright-blue; 
   }
@@ -96,11 +104,12 @@
   }
 }
 
-.btn-free {
+.btn-green {
   color: @white;
   background-color: @lime;
+  text-transform: uppercase;
   border: 1px solid @lt-lime;
-  border-radius: none;
+  border-radius: 0;
   &:active {
    background-color: @lt-lime; 
   }
@@ -108,6 +117,10 @@
    background-color: @lt-lime; 
   }
 }
+
+
+
+/* misc */
 
 .center {
   text-align: center;  
@@ -120,6 +133,7 @@
 .client-logos {
   width: 15%; 
 }
+
 
 
 /* ELEMENT CLASSES */
@@ -178,28 +192,4 @@
 .jumbotron {
   background-color: @jumbotron-red; 
   color: @white;
-/*   .btn-pro {
-    color: @white;
-    background-color: @bright-blue;
-    border: 1px solid @lt-bright-blue;
-    border-radius: none;
-    &:active {
-     background-color: @lt-bright-blue; 
-    }
-    &:hover {
-     background-color: @lt-bright-blue; 
-    }
-  }
-  .btn-free {
-    color: @white;
-    background-color: @lime;
-    border: 1px solid @lt-lime;
-    border-radius: none;
-    &:active {
-     background-color: @lt-lime; 
-    }
-    &:hover {
-     background-color: @lt-lime; 
-    }
-  } */  
 }
