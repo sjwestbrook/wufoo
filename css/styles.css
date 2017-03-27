@@ -285,7 +285,7 @@ h2 {
 .navbar .navbar-header .navbar-brand img {
   width: 10%;
 }
-.navbar .navbar-header button .navbar-toggle .collapsed span .icon-bar {
+.navbar .navbar-header .navbar-toggle .icon-bar {
   background-color: #fff;
 }
 /* end navbar */
