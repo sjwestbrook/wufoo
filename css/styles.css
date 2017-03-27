@@ -282,8 +282,11 @@ h2 {
 .navbar .navbar-header {
   width: 10o%;
 }
+.navbar .navbar-header .navbar-brand {
+  width: 50%;
+}
 .navbar .navbar-header .navbar-brand img {
-  width: 10%;
+  width: 25%;
 }
 .navbar .navbar-header .navbar-toggle .icon-bar {
   background-color: #fff;
