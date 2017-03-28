@@ -262,8 +262,37 @@ h2 {
 .navbar .navbar-header .navbar-toggle .icon-bar {
   background-color: #fff;
 }
-.navbar .navbar-nav dropdown-menu {
+.navbar .navbar-nav .dropdown .dropdown-menu {
   background-color: #e45a53;
+}
+.navbar .navbar-nav .dropdown .dropdown-menu a {
+  color: #fff;
+  text-decoration: none;
+  background-color: #e45a53;
+  font-size: 0.8em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.navbar .navbar-nav .dropdown .dropdown-menu a:hover {
+  color: #ffdf8f;
+  text-decoration: none;
+  background-color: #e45a53;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+.navbar .navbar-nav .dropdown .dropdown-menu a:active {
+  color: #ffdf8f;
+  text-decoration: none;
+  background-color: #e45a53;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+.navbar .navbar-nav .dropdown .dropdown-menu a:visited {
+  color: #fff;
+  text-decoration: none;
+  background-color: #e45a53;
+  font-size: 0.8em;
+  font-weight: bold;
 }
 .navbar .navbar-nav a {
   color: #fff;
