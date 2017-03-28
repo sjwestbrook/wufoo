@@ -298,21 +298,6 @@ h2 {
   background-color: @header-red;
   border-radius: 0;
   padding: 1% 5%;
-  a {
-     .header-link;
-     text-transform: uppercase;
-     &:hover {
-       background-color: @header-red;
-       color: @lt-yellow;
-/*         .header-link-alt; */
-     }
-     &:active {
-        .header-link-alt;
-     }
-     &:visited {
-        .header-link;
-     }
-  }
   .navbar-header {
     width: 10o%;
      .navbar-brand {
@@ -327,6 +312,21 @@ h2 {
       }               
     }
   }
+  .navbar-nav {
+      a {
+       .header-link;
+       text-transform: uppercase;
+       &:hover {
+          .header-link-alt;
+       }
+       &:active {
+          .header-link-alt;
+       }
+       &:visited {
+          .header-link;
+       }
+    }
+  }    
 }
 /* end navbar */
 
