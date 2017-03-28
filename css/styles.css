@@ -259,11 +259,9 @@ h2 {
   text-transform: uppercase;
 }
 .navbar a:hover {
-  color: #ffdf8f;
-  text-decoration: none;
   background-color: #e45a53;
-  font-size: 0.8em;
-  font-weight: bold;
+  color: #ffdf8f;
+  /*         .header-link-alt; */
 }
 .navbar a:active {
   color: #ffdf8f;
