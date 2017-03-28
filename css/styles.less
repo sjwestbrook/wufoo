@@ -313,9 +313,25 @@ h2 {
     }
   }
   .navbar-nav {
-      dropdown-menu {
+     .dropdown {
+       .dropdown-menu {
         background-color: @header-red; 
+        a {
+           .header-link;
+           text-transform: uppercase;
+           &:hover {
+              .header-link-alt;
+           }
+           &:active {
+              .header-link-alt;
+           }
+           &:visited {
+              .header-link;
+           }
+        } 
       }
+    }
+      
       a {
        .header-link;
        text-transform: uppercase;
