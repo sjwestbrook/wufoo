@@ -262,6 +262,9 @@ h2 {
 .navbar .navbar-header .navbar-toggle .icon-bar {
   background-color: #fff;
 }
+.navbar .navbar-nav dropdown-menu {
+  background-color: #e45a53;
+}
 .navbar .navbar-nav a {
   color: #fff;
   text-decoration: none;
