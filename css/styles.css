@@ -403,12 +403,6 @@ h2 {
 .jumbotron h6 {
   color: #fff;
 }
-.testimonial-quote {
-  float: left;
-}
-.testimonial {
-  float: right;
-}
 .testimonial .testimonial-list ul li {
   display: block;
   list-style-type: none;
