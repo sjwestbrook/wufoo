@@ -220,9 +220,11 @@ h2 {
 }
 .simple-link:hover {
   text-decoration: none;
+  color: #e45a53;
 }
 .simple-link:active {
   text-decoration: none;
+  color: #e45a53;
 }
 .simple-link:visited {
   text-decoration: none;
