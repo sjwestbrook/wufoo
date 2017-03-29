@@ -74,6 +74,9 @@ h2 {
 .white-text {
   color: #fff;
 }
+.bold {
+  font-weight: bold;
+}
 /* backgrounds */
 .vlt-grey-bg {
   background-color: #f8fafb;
