@@ -92,8 +92,9 @@ h2 {
   text-transform: uppercase;
   border: 1px solid #d6cccc;
   border-radius: 0;
-  margin: 0 2.5%;
+  margin: 3% 2.5%;
   padding: 1% 5%;
+  font-weight: bold;
 }
 .btn-red:active {
   background-color: #e66760;
@@ -116,8 +117,9 @@ h2 {
   text-transform: uppercase;
   border: none;
   border-radius: 0;
-  margin: 0 2.5%;
+  margin: 3% 2.5%;
   padding: 1% 5%;
+  font-weight: bold;
 }
 .btn-yellow:active {
   color: #6d696e;
@@ -140,8 +142,9 @@ h2 {
   text-transform: uppercase;
   border: 1px solid #b7e3f2;
   border-radius: 0;
-  margin: 0 2.5%;
+  margin: 3% 2.5%;
   padding: 1% 5%;
+  font-weight: bold;
 }
 .btn-blue:active {
   color: #fff;
@@ -161,8 +164,9 @@ h2 {
   text-transform: uppercase;
   border: 1px solid #aeefaf;
   border-radius: 0;
-  margin: 0 2.5%;
+  margin: 3% 2.5%;
   padding: 1% 5%;
+  font-weight: bold;
 }
 .btn-green:active {
   color: #fff;
@@ -181,8 +185,9 @@ h2 {
   background-color: #61e064;
   text-transform: uppercase;
   border-radius: 0;
-  margin: 0 2.5%;
+  margin: 3% 2.5%;
   padding: 1% 5%;
+  font-weight: bold;
 }
 .btn-green2:active {
   color: #fff;
