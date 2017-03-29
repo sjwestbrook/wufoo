@@ -36,6 +36,7 @@ h2 {
 @header-red: rgb(228, 90, 83);
 @jumbotron-red: rgb(230, 103, 96);
 @bright-blue: rgb(83, 189, 224);
+@lt-bright-blue2: lighten(rgb(83, 189, 224), 10%);
 @lt-bright-blue: rgb(183, 227, 242);
 @blue: rgb(40, 172, 216);
 @lime: rgb(97, 224, 100);
@@ -123,10 +124,17 @@ h2 {
   border-radius: 0;
   &:active {
     background-color:@jumbotron-red; 
+    color: @white;
     border: 1px solid @lt-grey;
   }
   &:hover {
     background-color: @jumbotron-red; 
+    color: @white;
+    border: 1px solid @lt-grey;
+  }
+  &:visited {
+    background-color: @jumbotron-red; 
+    color: @white;
     border: 1px solid @lt-grey;
   }
 }
@@ -138,10 +146,17 @@ h2 {
   border: none;
   border-radius: 0;
   &:active {
+    color: @grey; 
     background-color:@lt-bright-yellow; 
     border: none;
   }
   &:hover {
+    color: @grey; 
+    background-color: @lt-bright-yellow; 
+    border: none;
+  }
+  &:visited {
+    color: @grey; 
     background-color: @lt-bright-yellow; 
     border: none;
   }
@@ -154,10 +169,16 @@ h2 {
   border: 1px solid @lt-bright-blue;
   border-radius: 0;
   &:active {
-   background-color: @lt-bright-blue; 
+    color: @white;
+    background-color: @lt-bright-blue2; 
   }
   &:hover {
-   background-color: @lt-bright-blue; 
+    color: @white;
+    background-color: @lt-bright-blue2; 
+  }
+  &:visited {
+    color: @white;
+    background-color: @lt-bright-blue2; 
   }
 }
 
@@ -168,10 +189,16 @@ h2 {
   border: 1px solid @lt-lime;
   border-radius: 0;
   &:active {
-   background-color: @lt-lime; 
+    color: @white;
+    background-color: @lt-lime; 
   }
   &:hover {
-   background-color: @lt-lime; 
+    color: @white;
+    background-color: @lt-lime; 
+  }
+  &:visited {
+    color: @white;
+    background-color: @lt-lime; 
   }
 }
 
@@ -181,10 +208,16 @@ h2 {
   text-transform: uppercase;
   border-radius: 0;
   &:active {
-   background-color: @dk-lime; 
+    color: @white;
+    background-color: @dk-lime; 
   }
   &:hover {
-   background-color: @dk-lime; 
+    color: @white;
+    background-color: @dk-lime; 
+  }
+  &:visited {
+    color: @white;
+    background-color: @dk-lime; 
   }
 }
 
