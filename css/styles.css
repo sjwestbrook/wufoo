@@ -215,6 +215,18 @@ h2 {
 .green-link:visited {
   color: #61e064;
 }
+.simple-link {
+  text-decoration: none;
+}
+.simple-link:hover {
+  text-decoration: none;
+}
+.simple-link:active {
+  text-decoration: none;
+}
+.simple-link:visited {
+  text-decoration: none;
+}
 /* lists */
 .vertical-list {
   display: block;
@@ -291,7 +303,7 @@ h2 {
 .container-fluid .jumbotron {
   border-radius: 0;
 }
-h3 {
+h2 {
   font-weight: bold;
 }
 .nav {
