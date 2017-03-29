@@ -34,6 +34,7 @@ h2 {
 
 @white: #fff;
 @header-red: rgb(228, 90, 83);
+@lt-red: lighten(rgb(228, 90, 83), 10%);
 @jumbotron-red: rgb(230, 103, 96);
 @bright-blue: rgb(83, 189, 224);
 @lt-bright-blue2: lighten(rgb(83, 189, 224), 10%);
@@ -123,7 +124,7 @@ h2 {
 
 .btn-red {
   color: @white; 
-  background-color: @jumbotron-red;
+  background-color: @lt-red;
   text-transform: uppercase;
   border: 1px solid @lt-grey;
   border-radius: 0;
