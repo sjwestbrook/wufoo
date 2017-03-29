@@ -60,6 +60,18 @@ h2 {
 .purple-white h6 {
   color: #fff;
 }
+.blue-white {
+  background-color: #28acd8;
+}
+.blue-white p,
+.blue-white h1,
+.blue-white h2,
+.blue-white h3,
+.blue-white h4,
+.blue-white h5,
+.blue-white h6 {
+  color: #fff;
+}
 /* CLASSES */
 /* font colors */
 .blue-text {
